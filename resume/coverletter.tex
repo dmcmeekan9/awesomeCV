@@ -1,0 +1,132 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,edge,left]{profile}
+\name{Dennis J.}{McMeekan}
+% \position{Intern{\enskip\cdotp\enskip}Software Engineer}
+\position{Software Engineer}
+\address{521 W Murray Street Macomb, Illinois 61455}
+
+\mobile{(309) 737-7812}
+\email{dennismcmeekan@gmail.com}
+\github{dmcmeekan9}
+\linkedin{dmcmeekan}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\quote{``Don’t compare yourself with anyone in this world… \\ if you do so, you are insulting yourself."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Software Engineer}
+  {COMPANY NAME}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for JOB TITLE}
+% How the letter is opened
+\letteropening{To Whom it May Concern,}
+% How the letter is closed
+\letterclosing{Thank you,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Dennis J. McMeekan~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\lettersection{About Me}
+
+I am a twenty-two year old student at Western Illinois University who owns a great work ethic and ability to learn. I grew up in a small town named Sherrard, Illinois. I knew at a young age that I wanted to go into computer programming and networking, this becoming my motivation to continue my schooling at Western Illinois University. I have overcame adversity to get to where I am today, through the loss of my mother at a young age and then dealing with rough childhood circumstances in the years to follow. My circumstances have driven me to excel in everything that I do by putting forth my maximum effort. I have focused on developing excellent programming and computer skills that will only continue to grow.
+
+\lettersection{Why COMPANY NAME?}
+
+I want to be able to provide insight and ideas that will help expand and develop COMPANY NAME product offerings, infrastructure, and software development. Ranging from improving customer's daily actions to developing substantial technology that assists engineering, these will further push individuals across the world to achieve daily success. With this opportunity, I am excited to gain a deep understanding of the processes involved to make these ideas happen and the technology behind it expanding upon my prior experience at Principal Financial. With Principal, I held a position that allowed me to thrive and learn valuable knowledge of developing in a professional environment, through languages such as Java, JCL, and C/C++. The main projects that I was able to develop with included mainframe modernization, an effort aimed to improve more towards a future development standard of enterprise technology. As well as improving existing technologies and fixing outstanding issues that would arise. I cannot wait to learn all the new skills COMPANY NAME requires and am ready to dive in, enhance my knowledge, and use past and new skills to continue adding to COMPANY NAME success.
+\lettersection{Why Me?}
+
+I know that I am ready to take the next step in my life and work for COMPANY NAME. Even if I find this opportunity to be challenging, I know that I will be able to persevere. I fully believe that every individual in this world has the opportunity to do something bigger than themselves, and I am looking for my opportunity to prove that. From a logistics standpoint, I know I am ready to use and further develop programming and technology skills that allow COMPANY NAME to thrive and continue to push success.
+
+\end{cvletter}
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+\end{document}
+\clearpage
